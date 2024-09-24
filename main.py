@@ -322,7 +322,7 @@ def principal():
             id_taxa = int(input("ID da taxa de transporte: "))
             deletar_taxidog(id_taxa)
         
-        time.sleep(2)
+        time.sleep(5)
 
 if __name__ == "__main__":
     principal()
